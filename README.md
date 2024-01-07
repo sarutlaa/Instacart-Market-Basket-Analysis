@@ -15,9 +15,11 @@ Project WorkFlow:
    <img width="484" alt="image" src="https://github.com/sarutlaa/Instacart-Market-Basket-Analysis/assets/141533429/d91f712f-3728-4a7b-9ff4-7be62c6a7696">
 2. Providing the IAM user access with the "Administrator Access" and stored the access keys.
 3. In the SnowflakeDB, a new schema and database is created for the instacart-market-basket data.
+
    <img width="209" alt="image" src="https://github.com/sarutlaa/Instacart-Market-Basket-Analysis/assets/141533429/97a85c7d-e98a-454e-80e2-a8701a6ff206">
-4. Created staging area (preparing Snowflake's environment to access the data from the S3) to maintain flexibility based on user preferences and requirements. In SnowflakeDB, the S3 .csv files have been imported using COPY command. Refer Instacart Fact Dim.sql
-5. Identified the data model and constructed the dimension and fact tables.
+   
+5. Created staging area (preparing Snowflake's environment to access the data from the S3) to maintain flexibility based on user preferences and requirements. In SnowflakeDB, the S3 .csv files have been imported using COPY command. Refer Instacart Fact Dim.sql
+6. Identified the data model and constructed the dimension and fact tables.
 
 Instacart Dimension Model:
 ![Instacart Dim Model](https://github.com/sarutlaa/Instacart-Market-Basket-Analysis/assets/141533429/be98d5ae-df11-4f37-af78-84fd61e73f07)
