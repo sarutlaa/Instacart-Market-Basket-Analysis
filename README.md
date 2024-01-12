@@ -1,5 +1,7 @@
 # Instacart-Market-Basket-Analysis
-Building Dimensional Model and SQL Analysis in SnowflakeDB
+Covers 2 topics 
+1. SQL Analysis in PostgreSQL
+1. Building Dimensional Model and using in it SnowflakeDB
 
 The primary objective of this project is to construct a dimensional model utilizing Fact and Dimension tables, employing the Star Schema approach. The raw or flat data, residing in Amazon S3, serves as the foundational source for this model. The data model is being developed within the SnowflakeDB data warehouse environment, facilitating the organization and optimization of data for analytical purposes. 
 
